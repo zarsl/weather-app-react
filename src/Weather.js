@@ -59,6 +59,7 @@ export default function Weather() {
                       <img
                         className="weather-icon float-left"
                         src={weatherData.imgUrl}
+                        alt="weather icon"
                       />
                     </span>
                     <div className="float-left">
@@ -97,10 +98,10 @@ export default function Weather() {
             <div id="footer">
               <div className="row">
                 <div className="col-6 hour-toggle">
-                  <a href="#" className="active">
+                  <a href="/" className="active">
                     12 hr
                   </a>{" "}
-                  |<a href="#">24 hr</a>
+                  |<a href="/">24 hr</a>
                 </div>
                 <div className="col-6 last-update">
                   <em>
@@ -115,6 +116,7 @@ export default function Weather() {
             <a
               href="https://github.com/zarsl/vanilla-weather-app"
               target="_blank"
+              rel="noreferrer"
             >
               Open-source code
             </a>
