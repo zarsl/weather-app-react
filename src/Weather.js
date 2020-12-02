@@ -1,4 +1,3 @@
-import axios from "axios";
 import Loader from "react-loader-spinner";
 
 export default function Weather(props) {
